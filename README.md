@@ -1,2 +1,2 @@
 # Sudoku-Solver
-Using a heuristic depth first search to solve sudoku board in under 20s
+Using a heuristic depth first search to look through all the possible combination that can be done to the given sudoku board. The selection of the next state is based on the number of remaining options in each cell. The algorithm will greedily choose the lowest number remaining options in a select cell and pick one of the options. Adjustments to the domain are done and the next cell is picked. These steps are repeated till a solution is found or all the options are exhausted. 
